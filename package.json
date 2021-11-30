@@ -4,7 +4,10 @@
   "description": "",
   "main": "",
   "scripts": {
-    "name": ""
+    "name": "",
+    "dev": "gulp watch",
+    "build:dev": "gulp build",
+    "build:prod": "gulp build --prod"
   },
   "author": "",
   "license": "ISC",
@@ -52,6 +55,7 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "focus-visible": "^5.2.0",
     "normalize.css": "^8.0.1",
     "smart-grid": "^2.1.2",
