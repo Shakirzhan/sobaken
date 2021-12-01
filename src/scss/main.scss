@@ -5,3 +5,15 @@
 @import './base/base';
 @import './layout/**/*';
 @import './components/**/*';
+
+.menu-main ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-main a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #4D4C59;
+}

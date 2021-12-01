@@ -1,1 +1,8 @@
 src/scss/generated
+
+
+/bootstrap/**/*.min.css
+/bootstrap/**/dist/
+/bootstrap/**/vendor/
+/bootstrap/_site/
+/bootstrap/js/coverage/

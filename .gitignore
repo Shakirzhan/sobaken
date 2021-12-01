@@ -5,6 +5,7 @@ __MACOSX
 _arc
 bower_components
 node_modules
+bootstrap/node_modules
 .vscode
 .publish
 .DS_Store
@@ -15,3 +16,58 @@ node_modules
 .idea
 ex_files
 Thumbs.db
+
+
+
+
+
+
+
+
+
+
+
+
+# Ignore docs files
+/bootstrap/_site/
+# Hugo files
+/bootstrap/resources/
+/bootstrap/.hugo_build.lock
+
+# Numerous always-ignore extensions
+/bootstrap/*.diff
+/bootstrap/*.err
+/bootstrap/*.log
+/bootstrap/*.orig
+/bootstrap/*.rej
+/bootstrap/*.swo
+/bootstrap/*.swp
+/bootstrap/*.vi
+/bootstrap/*.zip
+/bootstrap/*~
+
+# OS or Editor folders
+/bootstrap/._*
+/bootstrap/.cache
+/bootstrap/.DS_Store
+/bootstrap/.idea
+/bootstrap/.project
+/bootstrap/.settings
+/bootstrap/.tmproj
+/bootstrap/*.esproj
+/bootstrap/*.sublime-project
+/bootstrap/*.sublime-workspace
+/bootstrap/nbproject
+/bootstrap/Thumbs.db
+/bootstrap/.vscode/
+# Local Netlify folder
+/bootstrap/.netlify
+
+# Komodo
+/bootstrap/.komodotools
+/bootstrap/*.komodoproject
+
+# Folders to ignore
+/bootstrap/js/coverage/
+/bootstrap/node_modules/
+
