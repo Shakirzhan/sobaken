@@ -6,6 +6,8 @@ _arc
 bower_components
 node_modules
 bootstrap/node_modules
+bootstrap/dist/
+bootstrap/dist/css
 .vscode
 .publish
 .DS_Store
@@ -68,6 +70,7 @@ Thumbs.db
 /bootstrap/*.komodoproject
 
 # Folders to ignore
+
 /bootstrap/js/coverage/
 /bootstrap/node_modules/
 

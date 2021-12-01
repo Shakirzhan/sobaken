@@ -1,6 +1,6 @@
-/bootstrap/**/*.min.js
-/bootstrap/**/dist/
-/bootstrap/**/vendor/
+/bootstrap/*.min.js
+/bootstrap/vendor/
+
 /bootstrap/_site/
 /bootstrap/js/coverage/
 /bootstrap/site/static/sw.js
