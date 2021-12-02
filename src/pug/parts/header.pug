@@ -1,14 +1,35 @@
+div(class="bg1") 
+    img(src="images/bg/bg1.png", alt="bg1" width="1440")
 header(class="main-header")
-    div(class="container")
-        nav(class="menu-main d-none")
-            ul 
-                li 
-                    a(href="#") All  
-                li
-                    a(href="#") For cats
-                li
-                    a(href="#") For dogs
-                li
-                    a(href="#") Our blog
-                li
-                    a(href="#") Contact us
+    div(class="container_")
+        div(class="row align-items-center")
+            div(class="col-xl-1 col-lg-1")
+            div(class="col-xl-6 col-lg-6")
+                nav(class="menu-main")
+                    ul(class="d-flex")
+                        li 
+                            a(href="#") All  
+                        li
+                            a(href="#") For cats
+                        li
+                            a(href="#") For dogs
+                        li
+                            a(href="#") Our blog
+                        li
+                            a(href="#") Contact us
+                        li(class="d-flex align-items-center icons") 
+                            a(href="#i" class="icon") 
+                                img(src="images/header/instagram.svg", alt="instagram")
+                            a(href="#f" class="icon") 
+                                img(src="images/header/facebook.svg", alt="facebook")
+            div(class="col-xl-5 col-lg-5")
+                div(class="d-flex buttons")
+                    button(type="button" class="button") 
+                        div(class="button-icon d-flex align-items-center justify-content-center")
+                            img(src="images/header/cart.svg", alt="cart")
+                    button(type="button" class="button") 
+                        div(class="button-icon d-flex align-items-center justify-content-center")
+                            img(src="images/header/outline.svg", alt="outline")
+                    form(class="form-search")
+                        img(src="images/header/search.svg", alt="search" class="icon-search")
+                        input(type="text", name="search" class="search" autocomplete="off" placeholder="Search")
