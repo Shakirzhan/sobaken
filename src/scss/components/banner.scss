@@ -1,0 +1,128 @@
+.banner {
+    padding-top: 63px;
+    position: relative;
+    z-index: 25;
+}
+
+.banner-l {
+    padding-left: 50px;
+    z-index: 40;
+    position: relative;
+}
+
+.banner-slogan {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #4D4C59;
+    letter-spacing: -0.04em;
+    display: block;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 3.25rem;
+    line-height: 4rem;
+    letter-spacing: -0.04em;
+    color: #1D1C2D;
+    margin-top: 6px;
+    display: block;
+}
+
+.banner-desc {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    margin: 0;
+    color: #1D1C2D;
+    max-width: 456px;
+    margin-top: 6px;
+}
+
+.banner-buttons {
+    margin-top: 24px;
+}
+
+.banner-button {
+    background: #FFBB37;
+    box-shadow: 0px 4px 20px rgba(255, 187, 55, 0.64);
+    border-radius: 12px;
+    border: none;
+    color: #fff;
+    padding: 16px 26px;
+}
+
+.banner-icon {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.banner-button__cat {
+    background: #FFBB37;
+    box-shadow: 0px 4px 20px rgba(255, 187, 55, 0.64);
+}
+
+.banner-button__dog {
+    background: #46BF8C;
+    box-shadow: 0px 4px 20px rgba(70, 191, 140, 0.46);
+    margin-left: 12px;
+}
+
+.banner-image {
+    right: 0;
+    bottom: -195px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 20;
+}
+
+.banner-list {
+    position: relative;
+    z-index: 40;
+    margin: 0 -15px;
+    padding-top: 63px;
+}
+
+.banner-item {
+    padding: 0 15px;
+}
+
+.banner-item .banner-item__bg {
+    background: rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 15px rgba(174, 174, 174, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    padding-left: 56px;
+    padding-right: 15px;
+    min-height: 140px;
+}
+
+.banner-item:last-child .banner-item__bg {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.banner-item__title {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.04em;
+    color: #1D1C2D;
+    display: block;
+}
+
+.banner-item__desc {
+    font-size: 0.875rem;
+    line-height: 1.188rem;
+    color: #4D4C59;
+    display: block;
+    margin-top: 4px;
+}
+
+.banner-item__icon {
+    position: absolute;
+    top: 18px;
+    left: 17px;
+}
