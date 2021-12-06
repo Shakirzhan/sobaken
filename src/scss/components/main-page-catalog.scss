@@ -1,0 +1,55 @@
+.catalog__icon {
+    width: 48px;
+    height: 48px;
+    background: #FFF5E2;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog__icon img {
+    display: block;
+}
+
+.catalog__title {
+    font-size: 2rem;
+    line-height: 2.813rem;
+    letter-spacing: -0.04em;
+    color: #1D1C2D;
+    margin-left: 16px;
+    font-weight: 600;
+}
+
+.catalog__title-block {
+    display: flex;
+}
+
+.catalog-button {
+    border: none;
+    background: #DFF1ED;
+    border-radius: 74px;
+    color: #46BF8C;
+    letter-spacing: -0.04em;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    padding: 18px 34px;
+    cursor: pointer;
+}
+
+.catalog__title-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog-products {
+    padding-top: 35px;
+}
+
+.catalog-item {
+    width: 350px;
+    height: 560px;
+    box-shadow: 0px 4px 39px rgba(203, 203, 203, 0.25);
+    border-radius: 8px;
+}
