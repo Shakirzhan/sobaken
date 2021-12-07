@@ -1,4 +1,5 @@
 main 
+    div(class="notification") Товар добавлен
     div(class="banner position-relative") 
         img(src="images/main-page-banner/b2.png" alt="b2" class="banner-background-1")
         img(src="images/main-page-banner/b3.png" alt="b3" class="banner-background-2")
@@ -68,8 +69,10 @@ main
                                     span(class="catalog-item__price") $123.32
                                     div(class="catalog-item__buttons")
                                         button(type="button" class="catalog-item__button") 
-                                            img(src="images/common/cart.svg" alt="cart-item")
-                                            span Add to cart
+                                            img(src="images/common/cart.svg" alt="cart-item" class="catalog-item__cart")
+                                            img(src="images/common/approve.svg" alt="approve-item" class="catalog-item__approve")
+                                            span(class="catalog-item__add") Add to cart
+                                            span(class="catalog-item__txt-approve") Added!
                                         button(type="button" class="catalog-item__button-love")
                                             img(src="images/common/outline.svg", alt="outline-1")
                         div(class="col-xl-4 col-lg-4")
@@ -92,8 +95,10 @@ main
                                         span(class="catalog-item__price-old") $145
                                     div(class="catalog-item__buttons")
                                         button(type="button" class="catalog-item__button") 
-                                            img(src="images/common/cart.svg" alt="cart-item")
-                                            span Add to cart
+                                            img(src="images/common/cart.svg" alt="cart-item" class="catalog-item__cart")
+                                            img(src="images/common/approve.svg" alt="approve-item" class="catalog-item__approve")
+                                            span(class="catalog-item__add") Add to cart
+                                            span(class="catalog-item__txt-approve") Added!
                                         button(type="button" class="catalog-item__button-love")
                                             img(src="images/common/outline.svg", alt="outline-1")
                         div(class="col-xl-4 col-lg-4")
@@ -115,7 +120,7 @@ main
                                         span $123.32
                                         span(class="catalog-item__price-old") $145
                                     div(class="catalog-item__buttons")
-                                        button(type="button" class="catalog-item__button catalog-item__button--approve") 
+                                        button(type="button" class="catalog-item__button") 
                                             img(src="images/common/cart.svg" alt="cart-item" class="catalog-item__cart")
                                             img(src="images/common/approve.svg" alt="approve-item" class="catalog-item__approve")
                                             span(class="catalog-item__add") Add to cart

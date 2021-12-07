@@ -6,7 +6,11 @@ import $ from "jquery";
 documentReady(() => {
   lazyImages();
 
-  $('.catalog-item__button').on('click', () => {
-    
+  $('.catalog-item__button').on('click', e => {
+    $(e.currentTarget).addClass('catalog-item__button--approve')
+    $(".notification").fadeIn('slow')
+    setTimeout(() => {
+      $(".notification").fadeOut('slow')
+    }, 500)
   })
 });

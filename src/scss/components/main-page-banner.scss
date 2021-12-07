@@ -207,6 +207,9 @@
     min-height: 140px;
 }
 
+.banner-list {
+    padding-bottom: 25px;
+}
 
 @include media-breakpoint-up(lg) {
     .banner-title {

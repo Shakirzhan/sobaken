@@ -16,3 +16,13 @@
     z-index: 10;
     display: none;
 }
+
+.notification {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #46BF8C;
+    color: #fff;
+    padding: 10px;
+    display: none;
+}
