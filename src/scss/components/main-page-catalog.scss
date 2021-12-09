@@ -3,18 +3,30 @@
     z-index: 25;
 }
 
-.cat-catalog {
+.wraps-catalog {
     padding: 53px 25px 0;
+}
+
+.wraps-catalog + .wraps-catalog {
+    padding-top: 32px;
 }
 
 .catalog__icon {
     width: 48px;
     height: 48px;
-    background: #FFF5E2;
+    
     border-radius: 13px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.catalog__icon--orange {
+    background: #FFF5E2;
+}
+
+.catalog__icon--green {
+    background: #DFF1ED;
 }
 
 .catalog__icon img {
@@ -52,10 +64,9 @@
     align-items: center;
 }
 
-.catalog-products {
-    width: calc(100% + 40px);
-    overflow-x: hidden;
-}
+// .catalog-products {
+    // width: calc(100% + 40px);
+// }
 
 .catalog-item {
     width: 100%;
@@ -243,8 +254,8 @@
 }
 
 .catalog-row {
-    flex-wrap: nowrap;
-    overflow-x: scroll;
+    // flex-wrap: nowrap;
+    // overflow-x: scroll;
 }
 
 .catalog-products {
@@ -261,28 +272,59 @@
     display: none;
 }
 
-.catalog-row {
-    padding-right: 25px;
-}
-
 @include media-breakpoint-down(lg) {
     .catalog-row > div {
-        width: 350px;
-        margin: 25px 1rem;
+        width: 311px;
+        margin-left: 16px;
+        margin-top: 25px;
         padding: 0;
     }
 
     .catalog-button--mobile {
         display: block;
+        margin-top: 5px;
+        min-width: 155px;
+    }
+
+    .catalog-wrap-row {
+        overflow-x: scroll;
+    }
+
+    .catalog-row {
+        flex-wrap: nowrap;
+        padding-bottom: 25px;
+        padding-left: 19px;
+        min-width: 1100px;
+    }
+
+    .dog-catalog {
+        padding-top: 40px;
+    }
+
+    .wraps-catalog {
+        padding: 0;
+        padding-top: 15px;
+    }
+
+    .catalog__item-wrap {
+        padding-top: 38px;
+    }
+
+    .catalog-products {
+        width: calc(100% + 35px);
+        overflow-x: hidden;
+    }
+
+    .wraps-catalog + .wraps-catalog {
+        padding-top: 40px;
+    }
+
+    .wraps-catalog + .wraps-catalog .catalog-button--mobile {
+        display: none;
     }
 }
 
 @include media-breakpoint-up(lg) {
-    .catalog-row {
-        overflow-x: initial;
-        min-width: none;
-    }
-
     .catalog-products {
         margin: 0;
     }
@@ -292,7 +334,7 @@
     }
 
     .catalog-products {
-        overflow-x: inherit;
+        // overflow-x: inherit;
         padding-bottom: 40px;
     }
 
@@ -325,5 +367,13 @@
 
     .catalog__stars-wrap {
         margin-top: 26px;
+    }
+
+    .catalog-button {
+        display: block;
+    }
+
+    .catalog-button--mobile {
+        display: none;
     }
 }

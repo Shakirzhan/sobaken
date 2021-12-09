@@ -119,6 +119,30 @@
     order: 3
 }
 
+@include media-breakpoint-down(lg) {
+    .main-header .button-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu-button {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 7px;
+        margin-left: 12px;
+    }
+
+    .main-header .button {
+        padding: 0;
+    }
+
+    .main-header .button.button-cart {
+        margin-left: 10px;
+    }
+}
+
 @include media-breakpoint-up(sm) {
     //
     .main-header .button img.outline_mobile {
