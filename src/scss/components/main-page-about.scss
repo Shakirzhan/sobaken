@@ -1,0 +1,143 @@
+.about {
+    padding-top: 39px;
+    padding-bottom: 89px;
+    position: relative;
+    z-index: 40;
+}
+
+.about-image {
+    padding-left: 25px;
+}
+
+.about-image img {
+    width: 100%;
+}
+
+.about-title {
+    font-size: 2rem;
+    line-height: 2.813rem;
+    color: #1F2533;
+    letter-spacing: -0.04em;
+    font-weight: 600;
+}
+
+.about-desc {
+    padding-top: 14px;
+}
+
+.about-desc p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: #1D1C2D;
+    font-family: Inter;
+    max-width: 540px;
+}
+
+.about-desc p + p {
+    margin-top: 30px;
+}
+
+.progress-row {
+    padding-top: 30px;
+}
+
+.about__progress-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__progress-number {
+    font-size: 2rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.06em;
+    font-weight: bold;
+    font-family: Inter;
+    text-align: center;
+    display: block;
+}
+
+.about__progress-text {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: #1D1C2D;
+    font-family: Inter;
+    padding-top: 6px;
+}
+
+.about__button {
+    background-color: #46BF8C;
+    border: none;
+    box-shadow: 0px 4px 20px rgba(70, 191, 140, 0.46);
+    border-radius: 12px;
+    color: #fff;
+    padding: 16px 26px;
+    margin-top: 27px;
+    margin-left: 3px;
+}
+
+.about-row div:first-child {
+    order: 1;
+}
+
+.about-row div:nth-child(2) {
+    order: 2;
+}
+
+.about-row div:nth-child(3) {
+    order: 3;
+}
+
+.about-row div:last-child {
+    order: 4;
+}
+
+@include media-breakpoint-down(lg) {
+    .about {
+        padding-top: 25px;
+    }
+
+    .about-title {
+        font-size: 1.375rem;
+        line-height: 1.938rem;
+    }
+
+    .about-image {
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .about-row div:nth-child(2) {
+        order: 3;
+    }
+    
+    .about-row div:nth-child(3) {
+        order: 2;
+    }
+
+    .about__progress-number {
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        white-space: nowrap;
+    }
+
+    .about__progress-text {
+        font-size: 0.875rem;
+        line-height: 1.188rem;
+        white-space: nowrap;
+    }
+
+    .progress-row {
+        padding-top: 17px;
+    }
+
+    .about-desc {
+        padding-top: 27px;
+    }
+
+    .about {
+        padding-bottom: 45px;
+    }
+}
