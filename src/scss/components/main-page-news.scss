@@ -420,7 +420,7 @@
 
 @include media-breakpoint-down(lg) {
   .news {
-    padding-bottom: 30px;
+    padding-bottom: 0;
   }
 
   .slick-dots {
