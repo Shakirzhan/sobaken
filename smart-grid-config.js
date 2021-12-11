@@ -6,7 +6,7 @@ module.exports = {
   mobileFirst: true,
   container: {
     maxWidth: '1200px',
-    fields: '20px',
+    fields: '15px',
   },
   breakPoints: {
     xl: {
